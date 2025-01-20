@@ -1,0 +1,25 @@
+{
+  "name": "vpw-2019-langgetal-ts",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "test:coverage": "vitest run --coverage",
+    "start": "tsx src/runner.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "@vitest/coverage-v8": "^3.0.2",
+    "node-fetch": "^3.3.2",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vite-node": "^3.0.2",
+    "vitest": "^3.0.2"
+  }
+}
