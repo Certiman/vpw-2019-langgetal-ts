@@ -1,8 +1,14 @@
 {
   "name": "vpw-2019-langgetal-ts",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Certiman/vpw-2019-langgetal-ts.git",
+    "directory": "packages/vpw-2019-langgetal-ts"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
